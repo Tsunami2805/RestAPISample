@@ -1,6 +1,7 @@
-Feature: Looking up post codes
+Feature: Looking up post codes 2
 
-  Scenario Outline: Looking up US locations by post code
+  @Test2
+  Scenario Outline: Looking up US locations by post code 2
     When I look up a post code <Post Code> for country code <Country Code>
     Then the resulting location should be <Place Name> in <Country>
     Examples:
